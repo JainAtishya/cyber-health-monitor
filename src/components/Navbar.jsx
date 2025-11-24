@@ -1,4 +1,4 @@
-import { User, Bell, LogOut, Menu } from 'lucide-react';
+import { User, Bell, LogOut, Menu, Shield } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 
 const Navbar = ({ onMenuClick }) => {
@@ -23,7 +23,7 @@ const Navbar = ({ onMenuClick }) => {
           </button>
 
           <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-lg bg-gradient-to-br from-cyan-500 to-purple-600 flex items-center justify-center shadow-lg shadow-purple-500/50">
-            <span className="text-white font-bold text-lg sm:text-xl">CH</span>
+            <Shield className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
           </div>
           <h1 className="text-lg sm:text-2xl font-bold bg-gradient-to-r from-cyan-400 to-purple-500 bg-clip-text text-transparent hidden sm:block">
             Cyber Health Monitor
